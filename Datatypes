@@ -1,0 +1,32 @@
+class Data
+{
+public static void main(String args[])
+{
+System.out.println("Short ranges");
+System.out.println("Short minimum range:"+Short.MIN_VALUE);
+System.out.println("Short minimum range:"+Short.MAX_VALUE);
+System.out.println("************************");
+System.out.println("Integer ranges");
+System.out.println("Int minimum range:"+Integer.MIN_VALUE);
+System.out.println("Int minimum range:"+Integer.MAX_VALUE);
+System.out.println("************************");
+System.out.println("long ranges");
+System.out.println("long minimum range:"+Long.MIN_VALUE);
+System.out.println("long minimum range:"+Long.MAX_VALUE);
+System.out.println("************************");
+System.out.println("float ranges");
+System.out.println("float minimum range:"+Float.MIN_VALUE);
+System.out.println("float minimum range:"+Float.MAX_VALUE);
+System.out.println("************************");
+System.out.println("Short ranges");
+System.out.println("Short minimum range:"+"-"+Math.pow(2,55));
+/*System.out.println("Short minimum range:"+Math.pow());
+System.out.println("************************");*/
+}
+}
+
+
+
+
+
+
