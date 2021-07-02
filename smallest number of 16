@@ -1,0 +1,30 @@
+import java.util.*;
+class smallnumber
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+int a=sc.nextInt();
+int b=sc.nextInt();
+int c=sc.nextInt();
+int d=sc.nextInt();
+int e=sc.nextInt();
+int f=sc.nextInt();
+int g=sc.nextInt();
+int h=sc.nextInt();
+int i=sc.nextInt();
+int j=sc.nextInt();
+int k=sc.nextInt();
+int l=sc.nextInt();
+int m=sc.nextInt();
+int n=sc.nextInt();
+int o=sc.nextInt();
+int p=sc.nextInt();
+int b1=(int)Math.min(Math.min(a,b),Math.min(c,d));
+int b2=(int)Math.min(Math.min(e,f),Math.min(g,h));
+int b3=(int)Math.min(Math.min(i,j),Math.min(k,l));
+int b4=(int)Math.min(Math.min(m,n),Math.min(o,p));
+int b5=(int)Math.min(Math.min(b1,b2),Math.min(b3,b4));
+System.out.println("Smallest number is "+b5);
+}
+}
