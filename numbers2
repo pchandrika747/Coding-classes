@@ -1,0 +1,12 @@
+class num2
+{
+public static void main(String args[])
+{
+int i,j,k,l;
+for(i=2,j=4,k=6,l=8;i<=4&&j<=8&&k<=12&&l<=16;i*=2,j*=2,k*=2,l*=2)
+{
+System.out.println(i+" "+j+" "+k+" "+l);
+System.out.println(i-1+" "+(j-1)+" "+(k-1)+" "+(l-1));
+}
+}
+}
