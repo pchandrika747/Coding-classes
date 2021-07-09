@@ -1,0 +1,28 @@
+import java.util.*;
+class Indexprogram
+{
+public static void main(String args[]) 
+{
+Scanner sc=new Scanner(System.in); 
+System.out.print("Enter array size:"); 
+ int n=sc.nextInt(); 
+int nums[]=new int[n]; 
+int target; 
+int i,j; 
+System.out.print("Array elements:"); 
+for(i=0;i<n;i++) 
+nums[i]=sc.nextInt(); 
+System.out.print("Enter target value:"); 
+target=sc.nextInt(); 
+for(i=0;i<n-1;i++) 
+{
+for(j=i+1;j<n;j++)
+{ 
+if(nums[i]+nums[j]==target) 
+{
+ System.out.printf("[%d,%d]\n",nums[i],nums[j]);
+}
+}
+}
+}
+}
